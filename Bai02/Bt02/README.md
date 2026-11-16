@@ -1,3 +1,6 @@
+Link bài tập:
+https://snack.expo.dev/@duyanhdepzai/-learningapp
+
 App.js
 
 Vai trò: Tệp chính của ứng dụng, là điểm khởi đầu khi ứng dụng chạy.
@@ -418,4 +421,7 @@ const styles = StyleSheet.create({
   },
 });
 ````
+Kết quả sau cùng
+<img width="336" height="657" alt="image" src="https://github.com/user-attachments/assets/b3a1151f-23b4-447b-97fc-08fe775e23c7" />
+
 
