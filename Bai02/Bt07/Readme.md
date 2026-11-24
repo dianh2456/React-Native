@@ -7,14 +7,23 @@ App.js
   Vai trò:
   
 import ...	Tải các thư viện và màn hình cần sử dụng
+
 createNativeStackNavigator()	Tạo ra đối tượng quản lý luồng màn hình theo kiểu "ngăn xếp" (mở màn hình mới chồng lên trên)
+
 <NavigationContainer>	Bao bọc toàn bộ ứng dụng, là ngữ cảnh cho hệ thống điều hướng
+
 <Stack.Navigator>	Khai báo cấu hình chung cho thanh tiêu đề (màu nền, chữ, vị trí)
+
 <Stack.Screen name="..." component={...} />	Đăng ký từng màn hình:
+
 • name: Tên gọi tắt để chuyển màn hình
+
 • component: Component hiển thị
+
 • options: Cấu hình hiển thị thanh tiêu đề
+
 • headerLeft: () => null: Ẩn nút quay lại ở màn hình xác nhận
+
 ```
 code
 import { NavigationContainer } from '@react-navigation/native';
